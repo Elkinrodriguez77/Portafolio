@@ -38,3 +38,24 @@ import pandas as pd
 
 data = pd.read_csv('/path/to/download/directory/titanic.csv')
 Estos pasos deberían permitirte conectar a un conjunto de datos de Kaggle desde Python utilizando la API de Kaggle.
+
+# Conexión final con script de python en power bi:
+
+<pre>
+
+import os
+import zipfile
+import pandas as pd
+
+# conexión a la api e indicación de la ruta para guardar el archivo:
+os.system('kaggle datasets download -d rajkumarpandey02/2023-world-population-by-country -p "G:\\Mi unidad\\Marca Personal - Propósito de vida\\Generación de Contenido\\Portafolio\\EDA 1 - World Population by Country"')
+
+# descomprimir archivo y crear df
+with zipfile.ZipFile('G:\\Mi unidad\\Marca Personal - Propósito de vida\\Generación de Contenido\\Portafolio\\EDA 1 - World Population by Country\\2023-world-population-by-country.zip', 'r') as zip_ref:
+    zip_ref.extractall('G:\\Mi unidad\\Marca Personal - Propósito de vida\\Generación de Contenido\\Portafolio\\EDA 1 - World Population by Country')
+
+# df
+df = pd.read_csv('G:\\Mi unidad\\Marca Personal - Propósito de vida\\Generación de Contenido\\Portafolio\\EDA 1 - World Population by Country\\countries-table.csv')
+
+
+<pre>

@@ -16,7 +16,7 @@ import pandas as pd
 
 df = pd.read_csv('G:\\Mi unidad\\Marca Personal - Propósito de vida\\Generación de Contenido\\Portafolio\\EDA 1 - World Population by Country\\countries-table.csv')
 
-df.head(5)
+
 
 
 
