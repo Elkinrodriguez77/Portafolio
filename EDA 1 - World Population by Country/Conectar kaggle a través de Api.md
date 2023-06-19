@@ -4,7 +4,9 @@
 
 Primero, instala la API de Kaggle utilizando pip:
 
+<pre>
 pip install kaggle
+<pre>
 
 2. Configurar la API de Kaggle:
 
@@ -13,7 +15,11 @@ Para utilizar la API de Kaggle, necesitas un archivo de configuración llamado k
 Asegúrate de dar al archivo los permisos de lectura y escritura sólo para el propietario para mantener segura tu clave de la API:
 
 bash
+<pre>
 chmod 600 ~/.kaggle/kaggle.json
+<pre>
+
+El código anterior solo aplica para Linux o MacOS
 
 3. Descargar y cargar el conjunto de datos:
 
