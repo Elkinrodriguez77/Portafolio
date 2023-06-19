@@ -1,6 +1,6 @@
 # Acerca del dataset
 
-"World Population by Country" esun conjunto de datos de población mundial por país a lo largo del tiempo, brindando detalles como la población total, el crecimiento demográfico, las tasas de natalidad y mortalidad, la distribución urbana y rural, y posiblemente otros indicadores socioeconómicos.
+"World Population by Country" es un conjunto de datos de población mundial por país a lo largo del tiempo, brindando detalles como la población total, el crecimiento demográfico, las tasas de natalidad y mortalidad, la distribución urbana y rural, y posiblemente otros indicadores socioeconómicos.
 
 Con un conjunto de datos como este, se pueden realizar diversas análisis y visualizaciones para obtener información significativa sobre los patrones demográficos, comparar la situación entre diferentes países y explorar tendencias a lo largo del tiempo. Algunas posibles aplicaciones y análisis que podrías realizar incluyen:
 
